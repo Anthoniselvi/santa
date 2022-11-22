@@ -1,0 +1,16 @@
+.register-container{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 5% 20%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+form > input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8ecae6;
+}
