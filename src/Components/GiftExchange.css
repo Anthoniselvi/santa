@@ -125,3 +125,12 @@ span, a, h5{
     padding: 5px 20px;
     
 }
+@media(max-width: 768px) {
+    .giftexchange-container{
+        flex-direction: column;
+    }
+    .giftexchange-text{
+        width: 100%;
+    }
+   
+}
