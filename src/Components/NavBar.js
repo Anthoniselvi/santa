@@ -13,7 +13,7 @@ export const NavBar = () => {
 
   return (
     <nav className={toggle ? "navbar expanded" : "navbar"}>
-      <div className="logo">{/* <i class="cis-gift"></i> */}</div>
+      <div className="logo"></div>
       <div className="toggle-icon" onClick={handleToggle}>
         {toggle ? <Icon icon={x} size={28} /> : <Icon icon={menu} size={28} />}
       </div>

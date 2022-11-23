@@ -2,7 +2,7 @@
     display: flex;
 flex-direction: column;
 gap: 20px;
-padding: 5% 20%;
+padding: 5% 15%;
 }
 form{
     display: flex;
@@ -12,5 +12,9 @@ form{
 form > input{
     padding: 10px;
     border-radius: 10px;
+    width: 60%;
     border: 1px solid #8ecae6;
+}
+button{
+    margin-top: 20px;
 }

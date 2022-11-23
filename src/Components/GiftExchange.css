@@ -1,0 +1,127 @@
+.giftexchange-container{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    align-items: left;
+    padding: 50px;
+   
+}
+.giftexchange-container > p{
+    font-family: 'Nunito', sans-serif;
+    /* letter-spacing: -0.01em; */
+}
+.giftexchange-pic{
+    width:60%;
+    background-image: url("../images/exchange.png");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+ 
+}
+.giftexchange-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 30px;
+    width: 30%;
+    /* padding: 50px; */
+    
+}
+h1{
+    width: 70%;
+}
+.giftexchange-details{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.giftexchange-bottom > p{
+    font-style: italic;
+}
+button{
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.giftexchange-socialmedia{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 12px;
+   
+    gap: 20px;
+    padding: 0px 70px;
+}
+.facebook,
+.google{
+ width: 50%;
+ display: flex;
+ gap:10px;
+ justify-content: center;
+ align-items: center;
+ padding: 5px;
+ border: 2px solid #219ebc;
+ border-radius: 20px;
+ cursor: pointer;
+
+}
+.facebook >p,
+.google >p{
+    color: #219ebc;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+}
+.gift-input,
+.gift-select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8ecae6;
+    outline: none;
+}
+.giftexchange-or{
+    display: flex;
+    justify-content: space-between;
+}
+.giftexchange-or >p{
+    font-size: 9px;
+
+}
+.giftexchange-msg{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+span, a, h5{
+    color: #219ebc;
+    font-weight: 600;
+}
+.giftexchange-topline{
+    display: flex;
+    gap:10px;
+}
+.gift-left{
+    padding-left: 25px;
+    color: #6c757d;
+}
+.giftexchange-cotentbox{
+    /* border: 2px solid red; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border-top: 10px solid #ffd500;
+    box-shadow: 0px 0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.giftexchange-cotentbox > button {
+    margin-top: -10px;
+    width:auto;
+    padding: 5px 20px;
+    
+}

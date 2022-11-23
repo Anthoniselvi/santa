@@ -1,0 +1,32 @@
+.giftfinder-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.giftfinder-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 50px;
+    /* align-items: center; */
+    box-shadow: 0px 0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+    padding: 50px;
+}
+.giftfinder-top-left{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.giftfinder-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input-box{
+    border: 2px solid red;
+}
+.giftfinder-input{
+    width: 100%;
+}
