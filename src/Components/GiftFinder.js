@@ -5,6 +5,8 @@ import "./GiftFinder.css";
 
 function GiftFinder() {
   const [show, setShow] = useState(true);
+  const [url, setUrl] = useState();
+
   return (
     <div className="container">
       <NavBar />
@@ -19,12 +21,21 @@ function GiftFinder() {
           </div>
           <div className="giftfinder-top-right">
             {show ? (
-              <GrEdit color="#0077b6" onClick={() => setShow(!show)} />
+              <GrEdit className="edit" onClick={() => setShow(!show)} />
             ) : (
-              <input className="giftfinder-input" type="text" />
+              <div className="hidden-container">
+                <input
+                  value={url}
+                  onInput={(e) => setUrl(e.target.value)}
+                  className="giftfinder-input"
+                  type="text"
+                />
+                <button>Add</button>
+              </div>
             )}
           </div>
         </div>
+        <div className="display-container"></div>
       </div>
     </div>
   );

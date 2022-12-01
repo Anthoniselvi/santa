@@ -19,6 +19,11 @@ flex-direction: column;
 gap: 20px;
 
 }
+.giftfinder-top-right{
+    width: 80%;
+    /* height: 80%; */ 
+    /* border: 2px solid red; */
+}
 .giftfinder-content{
     display: flex;
     flex-direction: column;
@@ -26,7 +31,36 @@ gap: 20px;
 }
 .input-box{
     border: 2px solid red;
+    padding: 20px;
 }
 .giftfinder-input{
     width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #219ebc;
 }
+.hidden-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hidden-container > button {
+    width: 100px;
+}
+
+.edit{
+    font-size: 30px;
+    color : #0077b6;
+ }
+ .display-container{
+border: 1px solid #219ebc;
+padding: 50px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+
+ }
